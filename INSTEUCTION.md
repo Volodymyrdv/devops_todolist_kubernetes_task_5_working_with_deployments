@@ -1,15 +1,4 @@
 # Django ToDo list
-## Applying all the manifest 
-To start testing the application, you should run such a commands
-1. `cd .\.infrastructure\`
-2. `kubectl apply -f namespace.yml`
-3. `kubectl apply -f busybox.yml`
-4. `kubectl apply -f clusterip.yml`
-5. `kubectl apply -f nodeport.yml`
-6. `kubectl apply -f deployment.yml`
-7. `kubectl apply -f hpa.yml`
-8. `kubectl apply -f metricserver.yml`
-
 ## Resource Requests and Limits
 ```
 requests:
